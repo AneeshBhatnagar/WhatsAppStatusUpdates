@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText" >
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/singleMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:padding="12dp"
+        android:background="@drawable/gradient_text"
+        android:lineSpacingExtra="6dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec euismod sapien. Sed a magna eu ipsum convallis ultricies vitae ac justo. "
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/llHor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/singleMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iVCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:contentDescription="Copy Button"
+            android:src="@drawable/copy_ic" />
+
+        <ImageView
+            android:id="@+id/iVShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="Share Button"
+            android:src="@drawable/share_ic" />
+    </LinearLayout>
+
+</RelativeLayout>

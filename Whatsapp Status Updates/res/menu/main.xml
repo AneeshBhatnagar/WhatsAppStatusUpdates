@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/reportBug"
+        android:checkable="false"
+        android:title="@string/menuReport">
+    </item>
+    <item
+        android:id="@+id/email"
+        android:checkable="false"
+        android:title="@string/menuSend">
+    </item>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whatsapp Statuses</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="searchHint">Search Categories</string>
+    <string name="searchMSG">Search Messages</string>
+    <string name="menuSend">Contact Developer</string>
+    <string name="menuReport">Report a Bug</string>
+
+</resources>

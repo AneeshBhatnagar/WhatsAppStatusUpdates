@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/header" />
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/searchHint"
+        android:layout_below="@id/layoutHeader"
+        android:paddingTop="8dp" />
+	<requestFocus />
+    <ListView
+        android:id="@+id/catList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBox"
+        android:paddingTop="10dp" />
+
+</RelativeLayout>

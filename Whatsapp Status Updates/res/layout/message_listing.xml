@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/header" />
+
+    <EditText
+        android:id="@+id/searchMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHeader"
+        android:hint="@string/searchMSG"
+        android:paddingTop="8dp" />
+
+    <requestFocus />
+
+    <ListView
+        android:id="@+id/msgList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchMsg"
+        android:paddingTop="10dp" />
+
+</RelativeLayout>
